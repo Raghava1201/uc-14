@@ -1,4 +1,4 @@
 variable "email" {
-  type        = string
+  type    = string
   default = "machirajuraghavarao@gmail.com"
 }
