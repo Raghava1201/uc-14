@@ -84,6 +84,6 @@ jobs:
         run: terraform apply -lock=false -auto-approve tfplan.txt
         working-directory: ./
 
-#      - name: Destroy Terraform
-#       run: terraform destroy -lock=false -auto-approve
-#        working-directory: ./
+      - name: Destroy Terraform
+        run: terraform destroy -lock=false -auto-approve
+        working-directory: ./
